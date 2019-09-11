@@ -44,6 +44,4 @@ dependencies {
 }
 
 configurations.compile.exclude module: 'org.eclipse.paho.client.mqttv3'
-task debug << {
-    configurations.compile.each { println it}
-}
+
