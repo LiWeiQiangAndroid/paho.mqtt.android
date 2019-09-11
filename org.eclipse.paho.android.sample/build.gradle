@@ -48,4 +48,4 @@ task publishAPK(type: Copy) {
 }
 
 
-configurations.compile.exclude module: 'org.eclipse.paho.client.mqttv3'
+//configurations.compile.exclude module: 'org.eclipse.paho.client.mqttv3'
